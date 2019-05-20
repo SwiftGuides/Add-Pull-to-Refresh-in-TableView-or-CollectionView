@@ -5,7 +5,7 @@ Source :- https://stackoverflow.com/a/43525551/10422074
 
 Pull to refresh is built in iOS. You could do this in swift like
 
-```
+```swift
 @IBOutlet weak var collectionView: UICollectionView!
 
 override func viewDidLoad() {
@@ -24,3 +24,4 @@ override func viewDidLoad() {
     // somewhere in your code you might need to call:
     refreshControl.endRefreshing()     //At some point you could end refreshing.
 }
+```
